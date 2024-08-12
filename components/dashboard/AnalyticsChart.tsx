@@ -24,13 +24,7 @@ const CustomTooltip = ({ active, payload }: TooltipProps<number, string>) => {
     // Extract data from payload
     const { name, uv, pv, amt } = payload[0].payload;
     return (
-      <div
-        style={{
-          backgroundColor: '#fff',
-          border: '1px solid #ddd',
-          padding: '10px',
-        }}
-      >
+      <div className='bg-white border dark:bg-slate-800 border-gray-300 dark:border-slate-500 p-2.5'>
         <strong>{name}</strong>
         <p>Unique Visitors: {uv}</p>
         <p>Page Views: {pv}</p>

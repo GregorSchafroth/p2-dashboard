@@ -6,13 +6,13 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
       <Navbar />
-          <div className='flex-grow flex'>
-            <aside className='hidden md:block h-auto w-[350px]'>
-              <Sidebar />
-            </aside>
-            <div className='flex-grow p-5'>{children}</div>
-          </div>
-        <Footer />
+      <div className='flex-grow flex'>
+        <aside className='hidden md:block h-auto w-[350px]'>
+          <Sidebar />
+        </aside>
+        <div className='flex-grow p-5'>{children}</div>
+      </div>
+      <Footer />
     </>
   );
 };
