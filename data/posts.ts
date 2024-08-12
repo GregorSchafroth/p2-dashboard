@@ -4,7 +4,7 @@ const posts: Post[] = [
   {
     id: '1',
     title: 'The Rise of Artificial Intelligence',
-    body: 'Artificial Intelligence (AI) is revolutionizing various industries...',
+    body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nisi risus, euismod a blandit aliquam, luctus ut ligula. Suspendisse potenti. Nulla facilisi. Etiam vitae interdum metus, a pulvinar purus. Nam mattis mi egestas bibendum dictum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque vestibulum at orci sit amet efficitur. Donec dictum urna tortor, sit amet finibus tortor ornare sit amet. Morbi tellus lacus, tristique non elementum in, accumsan nec est. Nulla facilisi. Phasellus sed molestie lorem, vitae faucibus est. Donec aliquet magna a tristique ullamcorper. Sed ex metus, sollicitudin at lorem vitae, ultricies facilisis metus. In hac habitasse platea dictumst. Nullam suscipit turpis ac magna iaculis, eu efficitur est tempor. Nulla fringilla sapien vitae diam gravida, gravida accumsan ante semper. Praesent eget interdum lectus. Integer nec euismod metus. Donec hendrerit leo eu dui consequat, sit amet auctor eros efficitur. Donec bibendum leo nec est vestibulum condimentum. Vivamus id velit ligula. Curabitur pulvinar vestibulum consequat. Maecenas pharetra maximus placerat. Phasellus metus enim, laoreet vel convallis ut, commodo non massa. Vivamus dapibus quis justo eu vehicula. Nunc nec augue nec ex scelerisque vulputate a nec augue. Cras sollicitudin commodo elit eget mollis. Proin id nisi arcu.',
     author: 'John Doe',
     date: '2024-05-01',
     comments: [

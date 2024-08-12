@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Sidebar from '@/components/Sidebar';
+import Footer from '@/components/Footer';
 
 
 const inter = Inter({ subsets: ['latin'] });
@@ -19,14 +20,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={inter.className}>
+      <body className={`${inter.className} flex flex-col min-h-screen`} >
         <Navbar />
-        <div className='flex'>
-          <div className='hidden md:block h-[100vh] w-[350px]'>
+        <div className='flex-grow flex'>
+          <aside className='hidden md:block h-auto w-[350px]'>
             <Sidebar />
-          </div>
-          <div className='p-5 w-full md:max-w-[1140px]'>{children}</div>
+          </aside>
+          <div className='flex-grow p-5'>{children}</div>
         </div>
+        <Footer />
       </body>
     </html>
   );
