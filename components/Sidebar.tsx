@@ -35,25 +35,25 @@ const Sidebar = () => {
             <Newspaper className='mr-2 h-4 w-4'></Newspaper>
             <Link href='/posts'>Posts</Link>
           </CommandItem>
-          <CommandItem>
-            <Folders className='mr-2 h-4 w-4'></Folders>
-            <Link href='/#'>Categories</Link>
+          <CommandItem className='opacity-50 cursor-not-allowed'>
+            <Folders className='mr-2 h-4 w-4 '></Folders>
+            <div>Categories</div>
           </CommandItem>
           
         </CommandGroup>
         <CommandSeparator />
         <CommandGroup heading='Settings'>
-          <CommandItem>
+          <CommandItem className='opacity-50 cursor-not-allowed'>
             <User className='mr-2 h-4 w-4' />
             <span>Profile</span>
             <CommandShortcut>⌘P</CommandShortcut>
           </CommandItem>
-          <CommandItem>
+          <CommandItem className='opacity-50 cursor-not-allowed'>
             <CreditCard className="mr-2 h-4 w-4" />
             <span>Billing</span>
-            <CommandShortcut>⌘B</CommandShortcut>
+            <CommandShortcut >⌘B</CommandShortcut>
           </CommandItem>
-          <CommandItem>
+          <CommandItem className='opacity-50 cursor-not-allowed'>
             <Settings className="mr-2 h-4 w-4" />
             <span>Settings</span>
             <CommandShortcut>⌘S</CommandShortcut>

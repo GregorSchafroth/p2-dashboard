@@ -30,8 +30,8 @@ const Navbar = () => {
           <DropdownMenuContent>
             <DropdownMenuLabel>My Account</DropdownMenuLabel>
             <DropdownMenuSeparator />
-            <DropdownMenuItem>
-              <Link href='/profile'>Profile</Link>
+            <DropdownMenuItem className='opacity-50 cursor-not-allowed'>
+              <div>Profile</div>
             </DropdownMenuItem>
             <DropdownMenuItem>
               <Link href='/auth'>Logout</Link>
