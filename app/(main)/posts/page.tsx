@@ -1,11 +1,15 @@
-import PostsTable from "@/components/posts/PostsTable"
+import PostsTable from '@/components/posts/PostsTable';
+import BackButton from '@/components/BackButton';
+import PostsPagination from '@/components/posts/PostsPagination';
 
 const PostPage = () => {
   return (
     <>
-      <PostsTable/ >
+      <BackButton text='Dashboard' link='/' />
+      <PostsTable />
+      <PostsPagination />
     </>
-  )
-}
+  );
+};
 
-export default PostPage
+export default PostPage;
